@@ -21,7 +21,7 @@ public class CustomerController {
         return "deleteCustomer";
     }
 
-    @PostMapping
+    @PutMapping
     public String updateCustomer(){
         return "updateCustomer";
     }
